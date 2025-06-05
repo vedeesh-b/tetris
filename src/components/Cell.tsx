@@ -10,6 +10,7 @@ function Cell({ isOccupied, index }: CellProps) {
     <div 
         className="cell-container" 
         id={index}
+        style={isOccupied ? { backgroundColor: '#000'} : { backgroundColor: '#242424' }}
     />
   )
 }
